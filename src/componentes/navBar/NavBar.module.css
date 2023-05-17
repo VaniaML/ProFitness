@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.barra {
+  opacity: 0.9;
+  background: linear-gradient(-30deg, #000000, #a9a9a9, #9932cc);
+  animation: gradient 30s ease infinite;
+}
+
+.logo {
+  border-radius: 7%;
+  margin-left: 5%;
+  width: 8%;
+  heigth: 8%;
+}
