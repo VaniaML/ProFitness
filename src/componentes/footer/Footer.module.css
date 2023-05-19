@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+@media (max-width: 350px) { background-color: purple; }
+
 .footer {
   opacity: 0.9;
   background: linear-gradient(-30deg, #000000, #a9a9a9, #9932cc);
