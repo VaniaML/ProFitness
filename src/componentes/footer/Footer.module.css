@@ -46,3 +46,10 @@ p {
   width: 38px;
   height: 38px;
 }
+
+.num {
+  font-family: cursive;
+  font-size: 18px;
+  margin-left: 22%;
+  margin-top: -5.7%;
+}

@@ -10,6 +10,7 @@ return (
   <div className= {style.image}>
   <img className= {style.img} src={ Face } alt="Face" />
   <img className= {style.imgn} src={ Whats } alt="Whats" />
+  <p className= {style.num}>+52 553132 4291</p>
   </div>
   <h2>Sobre Nosotros</h2>
   <p>PRO FITNESS,  nuestro club femenil te da la bienvenida, y te invita</p>
