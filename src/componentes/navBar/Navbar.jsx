@@ -4,11 +4,10 @@ import style from './NavBar.module.css';
 export default function NavBar() {
   
 return(
-  
-  <div className= {style.barra}>
-  <img className= {style.logo} src={ Logo } alt="Logo" />
-  <button>Clases</button>
-  <button>Servicios Adicionales</button>
+  <div className= {style.NavBar}>
+  <img className= {style.logo} src={ Logo } alt="Logo" /> 
+  <button className= {style.btn}>Clases</button>
+  <button className= {style.btn}>Servicios Adicionales</button>
   </div>
   
   )}
