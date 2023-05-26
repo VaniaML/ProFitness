@@ -13,14 +13,50 @@ export default function Clases () {
   
   return (
     <div className= {style.class}>
-    <img className= {style.foto} src={ Lau } alt="Lau" />
-    <img className= {style.foto} src={ Diamuertos } alt="Diamuertos" />
-    <img className= {style.foto} src={ Cross } alt="Cross" />
-    <img className= {style.foto} src={ Crossfit } alt="Crossfit" />
-    <img className= {style.foto} src={ Neon } alt="Neon" />
-    <img className= {style.foto} src={ Step } alt="Step" />
-    <img className= {style.foto} src={ Crossf } alt="Crossf" />
-    <img className= {style.foto} src={ Crossfi } alt="Crossfi" />
-    <img className= {style.foto} src={ Crossft } alt="Crossft" />
+    <div className= {style.lineContainer}>
+    	<div className= {style.photoContainer}>	
+      		<img  className= {style.foto} src={ Lau } alt="Lau" />
+    		<div className= {style.name}>GAP</div>
+ 		</div>
+		<div className= {style.photoContainer}>
+			<img className= {style.foto} src={ Diamuertos } alt="Diamuertos" />
+    		<div className= {style.name}>COMBAT</div>
+		</div>
+		<div className= {style.photoContainer}>
+    		<img className= {style.foto} src={ Cross } alt="Cross" />
+    		<div className= {style.name}>CIRCUITOS</div>
+		</div>
+    	</div>
+
+   	<div className= {style.lineContainer}>
+        	<div className= {style.photoContainer}>
+            	<img className= {style.foto} src={ Crossfit } alt="Crossfit" />
+            	<div className= {style.name}>COMBAT</div>
+			</div>
+			<div className= {style.photoContainer}>
+            	<img className= {style.foto} src={ Neon } alt="Neon" />
+           	 <div className= {style.name}>CROSSFIT</div>
+			</div>
+			<div className= {style.photoContainer}>
+            	<img className= {style.foto} src={ Step } alt="Step" />
+           		<div className= {style.name}>STEP</div>
+	  		</div>
     </div>
+
+    	<div className= {style.lineContainer}>
+          <div className= {style.photoContainer}>
+     		<img className= {style.foto} src={ Crossf } alt="Crossf" />
+            <div className= {style.name}>GAP</div>
+		</div>
+		<div className= {style.photoContainer}>
+   		 	<img className= {style.foto} src={ Crossfi } alt="Crossfi" />
+            <div className= {style.name}>CIRCUITOS</div>
+		</div>
+		<div className= {style.photoContainer}>
+    		<img className= {style.foto} src={ Crossft } alt="Crossft" />
+            <div className= {style.name}>CROSSFIT</div>
+		</div>
+    	</div>
+		</div>
+
   )}

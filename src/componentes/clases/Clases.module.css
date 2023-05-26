@@ -13,8 +13,35 @@
 .foto {
   border-radius: 5%;
   margin-top: 3%;
-  margin-left: 4.5%;
+  margin-left: 6%;
   margin-bottom: 3%;
-  width: 27%;
-  heigth: 25%;
+  width: 90%;
+  heigth: 90%;
 }
+
+.img {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  heigth: 90%;
+}
+
+.name {
+  margin-left: 43%;
+  align-items: center;
+  font-family: cursive;
+  font-size: 20px;
+  color: #fffafa;
+}
+
+.lineContainer {
+  display: flex;
+  width: 100%;
+}
+
+.photoContainer  {
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+  
