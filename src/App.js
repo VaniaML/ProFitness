@@ -3,6 +3,7 @@ import NavBar from './componentes/navBar/Navbar.jsx';
 import Home from './componentes/home/Home.jsx';
 import Footer from './componentes/footer/Footer.jsx';
 import Clases from './componentes/clases/Clases.jsx';
+import OtroServ from './componentes/otroServ/Otroserv.jsx';
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
     <div>
     <NavBar />
     {/*<Home />*/}
-    <Clases />
+    {/*<Clases />*/}
+    <OtroServ />
     <Footer />
     
     </div>
