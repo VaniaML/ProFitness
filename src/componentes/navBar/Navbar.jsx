@@ -7,7 +7,7 @@ return(
   <div className= {style.NavBar}>
   <img className= {style.logo} src={ Logo } alt="Logo" /> 
   <button className= {style.btn}>Clases</button>
-  <button className= {style.btn}>Servicios Adicionales</button>
+  <button className= {style.btn}>Otros Servicios</button>
   </div>
   
   )}

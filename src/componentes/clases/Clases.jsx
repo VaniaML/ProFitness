@@ -1,12 +1,12 @@
-import Lau from './lau.jpg';
-import Diamuertos from './diamuertos.jpg';
-import Cross from './cross.jpg';
-import Crossfit from './crossfit.jpg';
-import Neon from './neon.jpg';
+import Cross from './crossfit.jpg';
+import Gap from './gap.jpg';
+import Pound from './pound.jpg';
+import Circuito from './circuitos.jpg';
 import Step from './step.jpg';
-import Crossf from './crossf.jpg';
-import Crossfi from './crossfi.jpg';
-import Crossft from './crossft.jpg';
+import Combat from './combat.jpg';
+import Trx from './trx.jpg';
+import Jumping from './jumping.jpg';
+import Zumba from './zumba.jpg';
 import style from './Clases.module.css';
 
 export default function Clases () {
@@ -15,46 +15,46 @@ export default function Clases () {
     <div className= {style.class}>
     <div className= {style.lineContainer}>
     	<div className= {style.photoContainer}>	
-      		<img  className= {style.foto} src={ Lau } alt="Lau" />
-    		<div className= {style.name}>GAP</div>
+      		<img  className= {style.foto} src={ Cross } alt="Cross" />
+    		<div className= {style.name}>CROSSFIT</div>
  		</div>
 		<div className= {style.photoContainer}>
-			<img className= {style.foto} src={ Diamuertos } alt="Diamuertos" />
-    		<div className= {style.name}>COMBAT</div>
+			<img className= {style.foto} src={ Gap } alt="Gap" />
+    		<div className= {style.name}>GAP</div>
 		</div>
 		<div className= {style.photoContainer}>
-    		<img className= {style.foto} src={ Cross } alt="Cross" />
-    		<div className= {style.name}>CIRCUITOS</div>
+    		<img className= {style.foto} src={ Pound } alt="Pound" />
+    		<div className= {style.name}>POUND</div>
 		</div>
     	</div>
 
    	<div className= {style.lineContainer}>
         	<div className= {style.photoContainer}>
-            	<img className= {style.foto} src={ Crossfit } alt="Crossfit" />
-            	<div className= {style.name}>COMBAT</div>
-			</div>
-			<div className= {style.photoContainer}>
-            	<img className= {style.foto} src={ Neon } alt="Neon" />
-           	 <div className= {style.name}>CROSSFIT</div>
+            	<img className= {style.foto} src={ Circuito } alt="Circuito" />
+            	<div className= {style.name}>CIRCUITOS</div>
 			</div>
 			<div className= {style.photoContainer}>
             	<img className= {style.foto} src={ Step } alt="Step" />
-           		<div className= {style.name}>STEP</div>
+           	 <div className= {style.name}>STEP</div>
+			</div>
+			<div className= {style.photoContainer}>
+            	<img className= {style.foto} src={ Combat } alt="Combat" />
+           		<div className= {style.name}>COMBAT</div>
 	  		</div>
     </div>
 
     	<div className= {style.lineContainer}>
           <div className= {style.photoContainer}>
-     		<img className= {style.foto} src={ Crossf } alt="Crossf" />
-            <div className= {style.name}>GAP</div>
+     		<img className= {style.foto} src={ Trx } alt="Trx" />
+            <div className= {style.name}>TRX</div>
 		</div>
 		<div className= {style.photoContainer}>
-   		 	<img className= {style.foto} src={ Crossfi } alt="Crossfi" />
-            <div className= {style.name}>CIRCUITOS</div>
+   		 	<img className= {style.foto} src={ Jumping } alt="Jumping" />
+            <div className= {style.name}>JUMPING</div>
 		</div>
 		<div className= {style.photoContainer}>
-    		<img className= {style.foto} src={ Crossft } alt="Crossft" />
-            <div className= {style.name}>CROSSFIT</div>
+    		<img className= {style.foto} src={ Zumba } alt="Zumba" />
+            <div className= {style.name}>ZUMBA</div>
 		</div>
     	</div>
 		</div>
