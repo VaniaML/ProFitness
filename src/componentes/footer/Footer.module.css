@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media (max-width: 350px) { background-color: purple; }
+@media (max-width: 768px) { background-color: purple; }
 
 .footer {
   opacity: 0.9;

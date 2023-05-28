@@ -16,7 +16,7 @@ export default function Clases () {
     <div className= {style.lineContainer}>
     	<div className= {style.photoContainer}>	
       		<img  className= {style.foto} src={ Cross } alt="Cross" />
-    		<div className= {style.name}>CROSSFIT</div>
+    		<div className= {style.name1}>CROSSFIT</div>
  		</div>
 		<div className= {style.photoContainer}>
 			<img className= {style.foto} src={ Gap } alt="Gap" />
@@ -31,7 +31,7 @@ export default function Clases () {
    	<div className= {style.lineContainer}>
         	<div className= {style.photoContainer}>
             	<img className= {style.foto} src={ Circuito } alt="Circuito" />
-            	<div className= {style.name}>CIRCUITOS</div>
+            	<div className= {style.name1}>CIRCUITOS</div>
 			</div>
 			<div className= {style.photoContainer}>
             	<img className= {style.foto} src={ Step } alt="Step" />
@@ -50,7 +50,7 @@ export default function Clases () {
 		</div>
 		<div className= {style.photoContainer}>
    		 	<img className= {style.foto} src={ Jumping } alt="Jumping" />
-            <div className= {style.name}>JUMPING</div>
+            <div className= {style.name1}>JUMPING</div>
 		</div>
 		<div className= {style.photoContainer}>
     		<img className= {style.foto} src={ Zumba } alt="Zumba" />

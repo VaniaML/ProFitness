@@ -10,19 +10,12 @@ function App() {
   return (
     <div>
     <NavBar />
-    {/*<Home />*/}
+    <Home />
     {/*<Clases />*/}
-    <OtroServ />
+    {/*<OtroServ />*/}
     <Footer />
     
     </div>
 )}
 
 export default App;
-
-
-
-
-
-
-

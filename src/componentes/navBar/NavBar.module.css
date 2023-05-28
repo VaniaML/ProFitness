@@ -3,10 +3,9 @@
     padding: 0;
   }
 
-@media (max-width: 350px) { background-color: purple; }
+@media (max-width: 768px) { background-color: purple; }
 
 .NavBar {
-  display: flex;
   opacity: 0.9;
   background: linear-gradient(-30deg, #000000, #a9a9a9, #9932cc);
   animation: gradient 30s ease infinite;
@@ -16,7 +15,6 @@
   border-radius: 7%;
   margin-top: 1%;
   margin-left: 5%;
-  margin-bottom: 1%;
   width: 9%;
   heigth: 9%;
 }
@@ -24,16 +22,21 @@
 .btn {
   cursor: pointer;
   background-color:  #9932cc;
-  padding: 10px;
+  padding: 1%;
   color: white;
-  font-size: 15px;
+  font-size: 90%;
   font-family: cursive;
   border: none;
-  border-radius: 13%;
+  border-radius: 12%;
   opacity: 0.7;
-  margin: 1%;
-  margin-top: 4%;
   margin-left: 53%;
   margin-right: -47%;
-  height: 43px;
+  height: 1%;
+  position: relative;
+  top: -50px;
+}
+
+.btn:hover {
+  background-color:  #000000;
+  opacity: 0.7;
 }

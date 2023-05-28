@@ -3,6 +3,8 @@
     padding: 0;
   }
 
+@media (max-width: 768px) { background-color: black; }
+
 .home {
   opacity: 0.9;
   background: black;
