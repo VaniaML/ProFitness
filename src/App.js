@@ -1,4 +1,6 @@
 import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NavBar from './componentes/navBar/Navbar.jsx';
 import Home from './componentes/home/Home.jsx';
 import Footer from './componentes/footer/Footer.jsx';
@@ -8,14 +10,19 @@ import OtroServ from './componentes/otroServ/Otroserv.jsx';
 function App() {
   
   return (
+    
+    <BrowserRouter>
     <div>
     <NavBar />
-    <Home />
-    {/*<Clases />*/}
-    {/*<OtroServ />*/}
+    <Switch>
+    <Route exact path='/' component={Home}></Route>
+      <Route exact path='/clases' component={Clases}></Route>
+		<Route exact path='/otroServ' component={OtroServ}></Route>
+      </Switch>
     <Footer />
-    
-    </div>
+      </div>
+    </BrowserRouter>
+	
 )}
 
 export default App;
