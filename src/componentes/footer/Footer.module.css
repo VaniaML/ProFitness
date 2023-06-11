@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-@media (max-width: 768px) { background-color: purple; }
-
 .footer {
   opacity: 0.9;
   background: linear-gradient(-30deg, #000000, #a9a9a9, #9932cc);
@@ -60,4 +58,42 @@ p {
   font-size: 20px;
   margin-right: 12%;
   margin-top: -5.8%;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .img {
+    margin-right: 15%;
+    margin-bottom: 2%;
+    width: 34px;
+    height: 34px;
+  }
+
+  .imgn {
+    margin-top: -25%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    width: 28px;
+    height: 28px;
+  }
+
+  .num {
+    font-size: 16px;
+    margin-left: 67%;
+    margin-top: -15%;
+  }
+
+  .face {
+    font-size: 18px;
+    margin-right: -20%;
+    margin-top: -10%;
+  }
 }

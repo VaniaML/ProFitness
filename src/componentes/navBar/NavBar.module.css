@@ -3,8 +3,6 @@
     padding: 0;
   }
 
-@media (max-width: 768px) { background-color: purple; }
-
 .NavBar {
   opacity: 0.9;
   background: linear-gradient(-30deg, #000000, #a9a9a9, #9932cc);
@@ -29,14 +27,27 @@
   border: none;
   border-radius: 12%;
   opacity: 0.7;
-  margin-left: 53%;
-  margin-right: -47%;
+  margin-left: 52%;
+  margin-right: -45%;
   height: 1%;
   position: relative;
-  top: -50px;
+  top: -25px;
 }
 
 .btn:hover {
   background-color:  #000000;
   opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 2%;
+    width: 20%;
+    height: 20%;
+  }
+
+  .btn {
+    margin-left: 20%;
+    margin-right: -10%;
+  }
 }
