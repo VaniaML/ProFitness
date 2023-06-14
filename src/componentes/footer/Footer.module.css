@@ -60,40 +60,34 @@ p {
   margin-top: -5.8%;
 }
 
-@media (max-width: 768px) {
-  h2 {
-    font-size: 24px;
-    padding: 10px;
-  }
+@media (max-width: 575.98px)and (orientation:portrait) {
+ 
+.img {
+  margin-right: 33%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  width: 44px;
+  heigth: 44px;
+}
+  
+.imgn {
+  margin-top: 7%;
+  margin-right: 36%;
+  width: 38px;
+  height: 38px;
+}
 
-  p {
-    font-size: 13px;
-  }
+.num {
+  font-family: cursive;
+  font-size: 18px;
+  margin-left: 22%;
+  margin-top: -13%;
+}
 
-  .img {
-    margin-right: 15%;
-    margin-bottom: 2%;
-    width: 34px;
-    height: 34px;
-  }
-
-  .imgn {
-    margin-top: -25%;
-    margin-left: 30%;
-    margin-bottom: 2%;
-    width: 28px;
-    height: 28px;
-  }
-
-  .num {
-    font-size: 16px;
-    margin-left: 67%;
-    margin-top: -15%;
-  }
-
-  .face {
-    font-size: 18px;
-    margin-right: -20%;
-    margin-top: -10%;
-  }
+.face {
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-top: -14%;
+}
 }
