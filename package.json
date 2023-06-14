@@ -1,5 +1,6 @@
 {
   "name": "profitness",
+  "homepage": "http://www.gruponucleon.com/profitness/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

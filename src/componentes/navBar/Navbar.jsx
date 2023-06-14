@@ -12,7 +12,7 @@ return(
   
   <div className= {style.NavBar}>
   
-  	<Link to='/'>
+  	<Link to='/profitness'>
   <img className= {style.logo} src={ Logo } alt="Logo" />
     </Link>
     
